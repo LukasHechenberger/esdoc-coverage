@@ -4,7 +4,7 @@
   "description": "Check ESDoc coverage",
   "main": "out/index.js",
   "bin": {
-    "esdoc-coverage": "out/bin"
+    "esdoc-coverage": "out/bin.js"
   },
   "scripts": {
     "compile": "babel src --out-dir out",
