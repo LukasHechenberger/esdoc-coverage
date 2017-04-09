@@ -44,6 +44,7 @@ export default class JUnitReporter extends Reporter {
 
   /**
    * Creates and prints the XML reports.
+   * @return {Promise<Error, String>} Resolved with the report or an error.
    */
   finish() {
     const report = {
@@ -64,7 +65,7 @@ export default class JUnitReporter extends Reporter {
       },
     };
 
-    console.log((new Builder()).buildObject(report)); // eslint-disable-line no-console
+    return Promise.resolve((new Builder()).buildObject(report));
   }
 
 }

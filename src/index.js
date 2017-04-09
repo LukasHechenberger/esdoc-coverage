@@ -166,7 +166,7 @@ export default class ESDocCoverage {
         fileCoverage.undocumentLines);
     });
 
-    reporter.finish();
+    return reporter.finish();
   }
 
   /**
@@ -180,7 +180,8 @@ export default class ESDocCoverage {
 
     return getConfig
       .then(config => this._getCoverageReport(config))
-      .then(report => this._checkCoverageReport(report));
+      .then(report => this._checkCoverageReport(report))
+      .then(report => console.log(report)); // eslint-disable-line no-console
   }
 
   /**

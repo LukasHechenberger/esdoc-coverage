@@ -61,7 +61,10 @@ export default class Reporter {
 
   /**
    * Called once all files have been processed. Outputs the report.
+   * @return {Promise<Error, String>} Resolved with the report or an error.
    */
-  finish() {}
+  finish() {
+    return Promise.resolve();
+  }
 
 }

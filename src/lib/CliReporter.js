@@ -59,13 +59,14 @@ export default class CliReporter extends Reporter {
   /**
    * Adds a summary row to the table and prints it. Also sets the process exit code to `1` if the
    * threshold was not met.
+   * @return {Promise<Error, String>} Resolved with the report or an error.
    */
   finish() {
     this.addRow(colors.cyan('All files'), this.success, this.actual, this.expected, []);
 
-    console.log(this.table.toString()); // eslint-disable-line no-console
-
     process.exitCode = this.success ? 0 : 1;
+
+    return Promise.resolve(this.table.toString());
   }
 
 }
