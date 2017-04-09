@@ -13,6 +13,9 @@ jobs:
       - run:
           name: Install dependencies
           command: npm install
+      - run:
+          name: Build project
+          command: npm run prepublish
       - save_cache:
           key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
