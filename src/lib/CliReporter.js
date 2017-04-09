@@ -16,7 +16,7 @@ export default class CliReporter extends Reporter {
     this.table.push({
       [colors.white(name)]: [
         [
-          colors[success ? 'green' : 'red'](`${(actual / expected).toFixed(1)}%`),
+          colors[success ? 'green' : 'red'](`${((actual / expected) * 100).toFixed(1)}%`),
           colors.gray(`(${actual}/${expected})`),
         ].join(' '),
         `${uncoveredLines.join(', ')}`,
