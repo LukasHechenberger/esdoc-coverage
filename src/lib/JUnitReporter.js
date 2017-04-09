@@ -30,11 +30,11 @@ export default class JUnitReporter extends Reporter {
   report(filename, success, actual, expected, uncoveredLines) {
     super.report(filename, success, actual, expected);
 
-    const testcase = { $: { classname: filename, name: 'Should be documented' } };
+    const testcase = { $: { classname: filename, name: 'should be documented' } };
 
     if (!success) {
       testcase.failure = [{
-        $: { message: 'failed' },
+        $: { message: 'Missing API documentation' },
         _: `Lines not documented: ${uncoveredLines.join(', ')}`,
       }];
     }
