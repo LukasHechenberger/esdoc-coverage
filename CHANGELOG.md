@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/ls-age/esdoc-coverage/compare/v0.1.1...v0.1.2) (2017-04-09)
+
+
+### Bug Fixes
+
+* **release:** Add build files to npm releases ([5fa48b2](https://github.com/ls-age/esdoc-coverage/commit/5fa48b2))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/ls-age/esdoc-coverage/compare/v0.1.0...v0.1.1) (2017-04-09)
 

@@ -1,0 +1,27 @@
+{
+  "coverage": "100%",
+  "expectCount": 33,
+  "actualCount": 33,
+  "files": {
+    "src/lib/CliReporter.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "src/index.js": {
+      "expectCount": 13,
+      "actualCount": 13,
+      "undocumentLines": []
+    },
+    "src/lib/JUnitReporter.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "src/lib/Reporter.js": {
+      "expectCount": 9,
+      "actualCount": 9,
+      "undocumentLines": []
+    }
+  }
+}
