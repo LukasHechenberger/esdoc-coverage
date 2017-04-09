@@ -17,18 +17,18 @@
     "test:ci": "circleci build",
     "test:watch": "npm test -- --watch --reporter min",
     "test:coverage": "nyc --reporter=html npm test",
-    "test:docs": "blcl docs/api --exclude https://circleci.com/gh/LukasHechenberger/esdoc-coverage"
+    "test:docs": "blcl docs/api --exclude https://circleci.com/gh/ls-age/esdoc-coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukasHechenberger/esdoc-coverage.git"
+    "url": "git+https://github.com/ls-age/esdoc-coverage.git"
   },
   "author": "Lukas Hechenberger <npm@ls-age.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LukasHechenberger/esdoc-coverage/issues"
+    "url": "https://github.com/ls-age/esdoc-coverage/issues"
   },
-  "homepage": "https://github.com/LukasHechenberger/esdoc-coverage#readme",
+  "homepage": "https://github.com/ls-age/esdoc-coverage#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-istanbul": "^4.1.1",
