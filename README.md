@@ -3,6 +3,8 @@
 > Check [ESDoc](https://esdoc.org) coverage
 
 [![CircleCI](https://circleci.com/gh/ls-age/esdoc-coverage.svg?style=shield)](https://circleci.com/gh/ls-age/esdoc-coverage)
+[![codecov](https://codecov.io/gh/ls-age/esdoc-coverage/branch/master/graph/badge.svg)](https://codecov.io/gh/ls-age/esdoc-coverage)
+[![ESDoc](https://doc.esdoc.org/github.com/ls-age/esdoc-coverage/badge.svg)](https://doc.esdoc.org/github.com/ls-age/esdoc-coverage/)
 
 **Please note that this module is still in early development.**
 
