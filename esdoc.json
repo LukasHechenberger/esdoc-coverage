@@ -5,7 +5,7 @@
   "access": ["public", "package", "private"],
   "test": {
     "type": "mocha",
-    "source": "./test"
+    "source": "./test/src"
   },
   "manual": {
     "changelog": ["./CHANGELOG.md"]
