@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.js | esdoc-coverage API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <a data-ice="repoURL" href="https://github.com/ls-age/esdoc-coverage" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~ESDocCoverage.html">ESDocCoverage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Command">Command</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Reporter">Reporter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">lib</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/lib/CliReporter.js~CliReporter.html">CliReporter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/lib/JUnitReporter.js~JUnitReporter.html">JUnitReporter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/lib/Reporter.js~Reporter.html">Reporter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">typedef</div><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://github.com/Automattic/cli-table">cli-table~Table</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { join } from &apos;path&apos;;
+import yargs from &apos;yargs&apos;;
+import CliReporter from &apos;./lib/CliReporter&apos;;
+import JUnitReporter from &apos;./lib/JUnitReporter&apos;;
+
+/**
+ * Commands ESDocCoverage handles.
+ * @type {Object}
+ * @property {string} CheckCoverage Checks the documentation coverage.
+ */
+export const Command = {
+  CheckCoverage: &apos;check-coverage&apos;,
+};
+
+/**
+ * Reporters available
+ * @type {Object}
+ * @property {string} Cli Use a {@link CliReporter} instance.
+ * @property {string} JUnit Use a {@link JUnitReporter} instance.
+ */
+export const Reporter = {
+  Cli: &apos;cli&apos;,
+  JUnit: &apos;junit&apos;,
+};
+
+/**
+ * The main esdoc-coverage class.
+ */
+export default class ESDocCoverage {
+
+  /**
+   * The currently used package version.
+   * @type {string}
+   */
+  static get version() {
+    // eslint-disable-next-line global-require
+    return require(join(__dirname, &apos;../package.json&apos;)).version;
+  }
+
+  /**
+   * Creates a new ESDocCoverage instance with the given command line arguments.
+   * @param {string[]} args The command line arguments to use.
+   * @return {ESDocCoverage} The new ESDocCoverage instance.
+   */
+  static withArgs(args) {
+    let command;
+
+    const options = yargs(args)
+      .version(() =&gt; this.constructor.version)
+      .alias(&apos;version&apos;, &apos;v&apos;)
+
+      .help(&apos;help&apos;)
+      .alias(&apos;help&apos;, &apos;h&apos;)
+
+      .command([&apos;check-coverage&apos;, &apos;*&apos;], &apos;Check coverage&apos;, y =&gt; y.options({
+        reporter: {
+          alias: &apos;r&apos;,
+          desc: &apos;Specify reporter to use&apos;,
+          choices: [&apos;cli&apos;, &apos;junit&apos;],
+          type: &apos;string&apos;,
+          default: &apos;cli&apos;,
+        },
+        config: {
+          alias: &apos;c&apos;,
+          desc: &apos;Specify config file&apos;,
+          type: &apos;string&apos;,
+        },
+        threshold: {
+          alias: &apos;t&apos;,
+          desc: &apos;Coverage percentage required (Currently not handled!)&apos;,
+          type: &apos;number&apos;,
+          default: 90,
+        },
+      }), () =&gt; (command = Command.CheckCoverage))
+
+      .showHelpOnFail(false, &apos;Specify --help for available options&apos;)
+      .argv;
+
+    return new this(options, command);
+  }
+
+  /**
+   * Creates a new ESDocCoverage instance based on some options and the command to run.
+   * @param {Object} [options={}] The options to use.
+   * @param {string} [options.reporter=&apos;cli&apos;] The reporter to use.
+   * @param {string} [options.config] The esdoc config path.
+   * @param {string} [command] The command to run. Note that you have to call ESDocCoverage#run to
+   * run the command specified.
+   */
+  constructor(options = {}, command) {
+    /**
+     * The options the current instance was created with.
+     * @type {Object}
+     */
+    this.options = options;
+
+    /**
+     * The command to run.
+     * @type {?string}
+     */
+    this._command = command;
+  }
+
+  /**
+   * Searches the given paths for valid ESDoc configurations.
+   * @param {string[]} paths The paths to search.
+   * @return {Promise&lt;Error, Object&gt;} Fulfilled with the ESDoc config found or rejected with the
+   * error that occured.
+   */
+  _getESDocConfig(paths) {
+    const cwd = process.cwd();
+
+    for (let i = 0; i &lt; paths.length; i++) {
+      const relPath = paths[i];
+      const path = join(cwd, relPath);
+
+      try {
+        let config = require(path); // eslint-disable-line global-require
+
+        if (relPath === &apos;package.json&apos;) {
+          config = config.esdoc;
+        }
+
+        if (config) {
+          return Promise.resolve({ path, config });
+        }
+      } catch (e) {} // eslint-disable-line no-empty
+    }
+
+    return Promise.reject(
+      new Error(`Unable to find ESDoc configuration (Searched: ${paths.join(&apos;, &apos;)})`)
+    );
+  }
+
+  /**
+   * Gets the documentation coverage report for the given config.
+   * @param {Object} config An ESDoc configuration.
+   * @return {Promise&lt;Error, Object&gt;} Fulfilled with the coverage report found or rejected with the
+   * error that occured.
+   */
+  _getCoverageReport(config) {
+    const coveragePath = join(config.path, &apos;../&apos;, config.config.destination, &apos;coverage.json&apos;);
+
+    try {
+      return Promise.resolve(require(coveragePath)); // eslint-disable-line global-require
+    } catch (e) {
+      return Promise.reject(
+        new Error(`Unable to find coverage report (Searched: ${coveragePath})`)
+      );
+    }
+  }
+
+  /**
+   * Validates the documentation coverage reported in the given report matches the threshold
+   * specified.
+   * @param {Object} report The report to handle.
+   */
+  _checkCoverageReport(report) {
+    const reporter = this.options.reporter === &apos;cli&apos; ? new CliReporter() : new JUnitReporter();
+
+    Object.keys(report.files).sort().forEach(filename =&gt; {
+      const fileCoverage = report.files[filename];
+      const valid = fileCoverage.actualCount / fileCoverage.expectCount &gt;= 0.9;
+
+      reporter.report(filename, valid, fileCoverage.actualCount, fileCoverage.expectCount,
+        fileCoverage.undocumentLines);
+    });
+
+    return reporter.finish();
+  }
+
+  /**
+   * Checks the documentation coverage.
+   * @return {Promise&lt;Error&gt;} Rejected if any errors occur.
+   */
+  checkCoverage() {
+    const getConfig = this.options.config ?
+      this._getESDocConfig([this.options.config]) :
+      this._getESDocConfig([&apos;.esdoc.json&apos;, &apos;.esdoc.js&apos;, &apos;package.json&apos;]);
+
+    return getConfig
+      .then(config =&gt; this._getCoverageReport(config))
+      .then(report =&gt; this._checkCoverageReport(report))
+      .then(report =&gt; console.log(report)); // eslint-disable-line no-console
+  }
+
+  /**
+   * Runs the specified command
+   * @param {Command} [command] The command to run. If not provided it is assumed, that a command
+   * was passed to the constructor.
+   * @return {Promise&lt;Error&gt;} A promise that is rejected if the command fails.
+   */
+  run(command) {
+    if (!this._command &amp;&amp; !command) {
+      return Promise.reject(new Error(&apos;No command specified&apos;));
+    }
+
+    const commandToRun = (command || this._command);
+
+    switch (commandToRun) {
+      case Command.CheckCoverage:
+        return this.checkCoverage();
+      default:
+        return Promise.reject(new Error(`Invalid command &quot;${commandToRun}&quot;`));
+    }
+  }
+
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

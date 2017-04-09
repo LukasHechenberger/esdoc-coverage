@@ -1,0 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="0.1.0"></a>
+# 0.1.0 (2017-04-09)
+
+
+### Bug Fixes
+
+* Print percentage value ([facb46c](https://github.com/ls-age/esdoc-coverage/commit/facb46c))
+
+
+### Features
+
+* **JUnitReporter:** Better error messages ([066d6ce](https://github.com/ls-age/esdoc-coverage/commit/066d6ce))
