@@ -2,6 +2,8 @@
 
 > Check [ESDoc](https://esdoc.org) coverage
 
+[![CircleCI](https://circleci.com/gh/ls-age/esdoc-coverage.svg?style=shield)](https://circleci.com/gh/ls-age/esdoc-coverage)
+
 **Please note that this module is still in early development.**
 
 ## Installation
