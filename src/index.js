@@ -196,8 +196,6 @@ export default class ESDocCoverage {
 
     const commandToRun = (command || this._command);
 
-    // TODO: Check if command is valid
-
     switch (commandToRun) {
       case Command.CheckCoverage:
         return this.checkCoverage();
