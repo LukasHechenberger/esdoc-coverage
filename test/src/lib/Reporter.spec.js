@@ -44,4 +44,11 @@ describe('Reporter', function() {
       });
     });
   });
+
+  /** @test {Reporter#finish} */
+  describe('#finish', function() {
+    it('should return a fulfilled Promise by default', function() {
+      expect((new Reporter()).finish(), 'to be fulfilled');
+    });
+  });
 });
