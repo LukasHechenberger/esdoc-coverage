@@ -27,6 +27,9 @@ jobs:
           name: Lint source files
           command: node_modules/.bin/eslint -f junit src > test-results/eslint.xml
       - run:
+          name: Check documentation for broken links
+          command: npm run test:docs
+      - run:
           name: Check documentation coverage
           command: node out/bin.js -r junit -c esdoc.json > test-results/esdoc.xml
       - run:
@@ -35,10 +38,18 @@ jobs:
       - run:
           name: Check test coverage
           command: node_modules/.bin/nyc check-coverage --statements 90 --branches 90 --functions 90 --lines 90
+      - run:
+          name: Report coverage
+          command: node_modules/.bin/nyc report --reporter=lcov > coverage.lcov | node_modules/.bin/codecov
       - store_artifacts:
           path: docs/api/
           destination: esdoc
       - store_test_results:
           path: test-results
-
+      - deploy:
+          name: Deploy documentation to docs.esdoc.org
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              node_modules/.bin/esdoc-uploader
+            fi
 
