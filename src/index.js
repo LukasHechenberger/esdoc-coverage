@@ -185,7 +185,8 @@ export default class ESDocCoverage {
 
   /**
    * Runs the specified command
-   * @param {Command} command The command to run.
+   * @param {Command} [command] The command to run. If not provided it is assumed, that a command
+   * was passed to the constructor.
    * @return {Promise<Error>} A promise that is rejected if the command fails.
    */
   run(command) {
