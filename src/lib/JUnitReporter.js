@@ -1,5 +1,5 @@
-import Reporter from './Reporter';
 import { Builder } from 'xml2js';
+import Reporter from './Reporter';
 
 export default class JUnitReporter extends Reporter {
 
@@ -15,7 +15,10 @@ export default class JUnitReporter extends Reporter {
     const testcase = { $: { classname: filename, name: 'Should be documented' } };
 
     if (!success) {
-      testcase.failure = [{ $: { message: 'failed' }, _: `Lines not documented: ${uncoveredLines.join(', ')}` }]
+      testcase.failure = [{
+        $: { message: 'failed' },
+        _: `Lines not documented: ${uncoveredLines.join(', ')}`,
+      }];
     }
 
     this.results.push(testcase);
@@ -40,22 +43,7 @@ export default class JUnitReporter extends Reporter {
       },
     };
 
-    console.log((new Builder()).buildObject(report));
+    console.log((new Builder()).buildObject(report)); // eslint-disable-line no-console
   }
-
-  /* constructor() {
-   this.table = new Table({
-   head: ['File', 'Coverage'],
-   });
-   }
-
-   report(filename, success, expected, actual) {
-
-   // return super.report(filename, success, expected, actual);
-   }
-
-   finish() {
-   console.log(this.table);
-   } */
 
 }

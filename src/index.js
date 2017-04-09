@@ -15,7 +15,8 @@ export default class ESDocCoverage {
   }
 
   static withArgs(args) {
-    let command = undefined;
+    let command;
+
     const options = yargs(args)
       .version(() => this.constructor.version)
       .alias('version', 'v')
@@ -66,7 +67,7 @@ export default class ESDocCoverage {
         if (config) {
           return Promise.resolve({ path, config });
         }
-      } catch (e) {}
+      } catch (e) {} // eslint-disable-line no-empty
     }
 
     return Promise.reject(

@@ -33,7 +33,7 @@ export default class CliReporter extends Reporter {
   finish() {
     this.addRow(colors.cyan('All files'), this.success, this.actual, this.expected, []);
 
-    console.log(this.table.toString());
+    console.log(this.table.toString()); // eslint-disable-line no-console
 
     process.exitCode = this.success ? 0 : 1;
   }
