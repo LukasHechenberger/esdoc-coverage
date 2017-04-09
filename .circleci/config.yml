@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /Users/lukas/Documents/ls-age/open/esdoc-coverage
+    working_directory: ~/esdoc-coverage
     docker:
       - image: node:6
         environment:
@@ -16,7 +16,7 @@ jobs:
       - save_cache:
           key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
-            - "/Users/lukas/Documents/ls-age/open/esdoc-coverage/node_modules"
+            - "~/esdoc-coverage/node_modules"
       - run:
           name: Create test report directory
           command: mkdir -p test-results
