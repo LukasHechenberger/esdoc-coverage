@@ -1,0 +1,41 @@
+version: 2
+jobs:
+  build:
+    working_directory: /Users/lukas/Documents/ls-age/open/esdoc-coverage
+    docker:
+      - image: node:6
+        environment:
+          MOCHA_FILE: "test-results/mocha.xml"
+    steps:
+      - checkout
+      - restore_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: Install dependencies
+          command: npm install
+      - save_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - "/Users/lukas/Documents/ls-age/open/esdoc-coverage/node_modules"
+      - run:
+          name: Create test report directory
+          command: mkdir -p test-results
+      - run:
+          name: Lint source files
+          command: node_modules/.bin/eslint -f junit src > test-results/eslint.xml
+      - run:
+          name: Run tests
+          command: NODE_ENV=test node_modules/.bin/nyc npm test -- --reporter mocha-circleci-reporter
+      - run:
+          name: Check test coverage
+          command: node_modules/.bin/nyc check-coverage --statements 90 --branches 90 --functions 90 --lines 90
+      - run:
+          name: Check documentation coverage
+          command: node out/bin.js -r junit -c esdoc.json > test-reports/esdoc.xml
+      - store_artifacts:
+          path: docs/api/
+          destination: esdoc
+      - store_test_results:
+          path: test-results
+
+
