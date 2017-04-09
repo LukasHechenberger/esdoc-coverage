@@ -80,6 +80,17 @@ describe('ESDocCoverage', function() {
     });
   });
 
+  /** @test {ESDocCoverage#_checkCoverageReport} */
+  describe('#_checkCoverageReport', function() {
+    it('should return xml report if reporter is set to unit', function() {
+      const instance = new ESDocCoverage({ reporter: 'junit' });
+
+      return expect(instance._checkCoverageReport({ files: {
+        'test.js': { actualCount: 0, expectCount: 2, undocumentLines: [1, 2] },
+      } }), 'to be fulfilled with', /^<\?xml/);
+    });
+  });
+
   /** @test {ESDocCoverage#checkCoverage} */
   describe('#checkCoverage', function() {
     it('should call getConfig with passed option value', function() {
