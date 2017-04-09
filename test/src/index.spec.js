@@ -84,9 +84,9 @@ describe('ESDocCoverage', function() {
   describe('#checkCoverage', function() {
     it('should call getConfig with passed option value', function() {
       const instance = new ESDocCoverage({ config: 'test.json' });
-      stub(instance, '_getESDocConfig', () => Promise.resolve());
-      stub(instance, '_getCoverageReport', () => Promise.resolve());
-      stub(instance, '_checkCoverageReport', () => Promise.resolve());
+      stub(instance, '_getESDocConfig').callsFake(() => Promise.resolve());
+      stub(instance, '_getCoverageReport').callsFake(() => Promise.resolve());
+      stub(instance, '_checkCoverageReport').callsFake(() => Promise.resolve());
 
       instance.checkCoverage();
 
@@ -96,9 +96,9 @@ describe('ESDocCoverage', function() {
 
     it('should call getConfig with default config paths if no option passed', function() {
       const instance = new ESDocCoverage({});
-      stub(instance, '_getESDocConfig', () => Promise.resolve());
-      stub(instance, '_getCoverageReport', () => Promise.resolve());
-      stub(instance, '_checkCoverageReport', () => Promise.resolve());
+      stub(instance, '_getESDocConfig').callsFake(() => Promise.resolve());
+      stub(instance, '_getCoverageReport').callsFake(() => Promise.resolve());
+      stub(instance, '_checkCoverageReport').callsFake(() => Promise.resolve());
 
       instance.checkCoverage();
 
@@ -106,7 +106,7 @@ describe('ESDocCoverage', function() {
       expect(instance._getESDocConfig.lastCall.args[0], 'to equal', [
         '.esdoc.json',
         '.esdoc.js',
-        'package.json'
+        'package.json',
       ]);
     });
   });
