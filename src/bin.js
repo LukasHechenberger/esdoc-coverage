@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import ESDocCoverage from './index';
 
 (ESDocCoverage.withArgs(process.argv.slice(2))).run()
