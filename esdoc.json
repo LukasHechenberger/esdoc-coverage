@@ -15,7 +15,7 @@
         "source": "./test/src"
       },
       "manual": {
-        "changelog": ["./CHANGELOG.md"]
+        "files": ["./CHANGELOG.md"]
       }
     }
   }]
