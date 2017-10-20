@@ -38,6 +38,7 @@
     "broken-link-checker-local": "^0.1.1",
     "codecov": "^2.1.0",
     "conventional-changelog-lint": "^1.1.9",
+    "conventional-github-releaser": "^1.1.12",
     "cross-env": "^4.0.0",
     "esdoc": "^0.5.2",
     "esdoc-uploader": "^1.0.1",
@@ -48,6 +49,7 @@
     "mocha-circleci-reporter": "0.0.2",
     "nyc": "^10.2.0",
     "sinon": "^2.1.0",
+    "standard-version": "^4.2.0",
     "unexpected": "^10.26.3"
   },
   "dependencies": {

@@ -47,6 +47,49 @@ jobs:
       - store_test_results:
           path: test-results
       - deploy:
+          name: Create git tag
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              # Setup git user
+              git config --global user.email circleci@circleci;
+              git config --global user.name CircleCI;
+              git remote --v;
+
+              # Create tag
+              git add -f out
+              git add -f docs/api
+              node_modules/.bin/standard-version --commit-all;
+            fi
+      - deploy:
+          name: Publish to npm
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              # Login to npm
+              echo -e "$NPM_USER\n$NPM_PASS\n$NPM_EMAIL" | npm login
+
+              # Publish
+              npm publish --access public
+            fi
+      - deploy:
+          name: Remove generated files
+          command: "git rm -rf out && git rm -rf docs/api && git commit -m 'chore(release): Remove generated files [ci skip]'"
+      - deploy:
+          name: Push changes to GitHub
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              # Add github.com to list or known hosts
+              ssh-keyscan -H github.com >> ~/.ssh/known_hosts;
+
+              # Upload new tag
+              git push --follow-tags origin $CIRCLE_BRANCH
+            fi
+      - run:
+          name: Creating GitHub release
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              CONVENTIONAL_GITHUB_RELEASER_TOKEN=$GITHUB_TOKEN npx conventional-github-releaser -p angular;
+            fi
+      - deploy:
           name: Deploy documentation to docs.esdoc.org
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
