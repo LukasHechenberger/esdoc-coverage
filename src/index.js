@@ -67,9 +67,10 @@ export default class ESDocCoverage {
         },
         threshold: {
           alias: 't',
-          desc: 'Coverage percentage required (Currently not handled!)',
+          desc: 'Coverage percentage required',
           type: 'number',
           default: 90,
+          coerce: percentage => percentage / 100,
         },
       }), () => (command = Command.CheckCoverage))
 
@@ -160,7 +161,7 @@ export default class ESDocCoverage {
 
     Object.keys(report.files).sort().forEach(filename => {
       const fileCoverage = report.files[filename];
-      const valid = fileCoverage.actualCount / fileCoverage.expectCount >= 0.9;
+      const valid = fileCoverage.actualCount / fileCoverage.expectCount >= this.options.threshold;
 
       reporter.report(filename, valid, fileCoverage.actualCount, fileCoverage.expectCount,
         fileCoverage.undocumentLines);
