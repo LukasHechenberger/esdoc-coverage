@@ -26,9 +26,9 @@ jobs:
       - run:
           name: Lint source files
           command: node_modules/.bin/eslint -f junit src > test-results/eslint.xml
-      - run:
-          name: Check documentation for broken links
-          command: npm run test:docs
+      # - run:
+      #     name: Check documentation for broken links
+      #     command: npm run test:docs
       - run:
           name: Check documentation coverage
           command: node out/bin.js -r junit -c esdoc.json > test-results/esdoc.xml
