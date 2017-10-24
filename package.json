@@ -38,7 +38,7 @@
     "broken-link-checker-local": "^0.1.1",
     "codecov": "^2.1.0",
     "conventional-changelog-lint": "^1.1.9",
-    "conventional-github-releaser": "^1.1.12",
+    "conventional-github-releaser": "^1.1.10",
     "cross-env": "^4.0.0",
     "esdoc": "^1.0.3",
     "esdoc-standard-plugin": "^1.0.0",
