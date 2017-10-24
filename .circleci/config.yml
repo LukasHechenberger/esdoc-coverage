@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/esdoc-coverage
     docker:
-      - image: node:6
+      - image: circleci/node:8
         environment:
           MOCHA_FILE: "test-results/mocha.xml"
     steps:
