@@ -1,0 +1,2410 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/bin.js",
+    "content": "#!/usr/bin/env node\n\nimport ESDocCoverage from './index';\n\n(ESDocCoverage.withArgs(process.argv.slice(2))).run()\n  .catch(err => {\n    console.error(err); // eslint-disable-line no-console\n\n    process.exitCode = 1;\n  });\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/src/bin.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import { join } from 'path';\nimport yargs from 'yargs';\nimport CliReporter from './lib/CliReporter';\nimport JUnitReporter from './lib/JUnitReporter';\n\n/**\n * Commands ESDocCoverage handles.\n * @type {Object}\n * @property {string} CheckCoverage Checks the documentation coverage.\n */\nexport const Command = {\n  CheckCoverage: 'check-coverage',\n};\n\n/**\n * Reporters available\n * @type {Object}\n * @property {string} Cli Use a {@link CliReporter} instance.\n * @property {string} JUnit Use a {@link JUnitReporter} instance.\n */\nexport const Reporter = {\n  Cli: 'cli',\n  JUnit: 'junit',\n};\n\n/**\n * The main esdoc-coverage class.\n */\nexport default class ESDocCoverage {\n\n  /**\n   * The currently used package version.\n   * @type {string}\n   */\n  static get version() {\n    // eslint-disable-next-line global-require\n    return require(join(__dirname, '../package.json')).version;\n  }\n\n  /**\n   * Creates a new ESDocCoverage instance with the given command line arguments.\n   * @param {string[]} args The command line arguments to use.\n   * @return {ESDocCoverage} The new ESDocCoverage instance.\n   */\n  static withArgs(args) {\n    let command;\n\n    const options = yargs(args)\n      .version(() => this.constructor.version)\n      .alias('version', 'v')\n\n      .help('help')\n      .alias('help', 'h')\n\n      .command(['check-coverage', '*'], 'Check coverage', y => y.options({\n        reporter: {\n          alias: 'r',\n          desc: 'Specify reporter to use',\n          choices: ['cli', 'junit'],\n          type: 'string',\n          default: 'cli',\n        },\n        config: {\n          alias: 'c',\n          desc: 'Specify config file',\n          type: 'string',\n        },\n        threshold: {\n          alias: 't',\n          desc: 'Coverage percentage required',\n          type: 'number',\n          default: 90,\n          coerce: percentage => percentage / 100,\n        },\n      }), () => (command = Command.CheckCoverage))\n\n      .showHelpOnFail(false, 'Specify --help for available options')\n      .argv;\n\n    return new this(options, command);\n  }\n\n  /**\n   * Creates a new ESDocCoverage instance based on some options and the command to run.\n   * @param {Object} [options={}] The options to use.\n   * @param {string} [options.reporter='cli'] The reporter to use.\n   * @param {string} [options.config] The esdoc config path.\n   * @param {string} [command] The command to run. Note that you have to call ESDocCoverage#run to\n   * run the command specified.\n   */\n  constructor(options = {}, command) {\n    /**\n     * The options the current instance was created with.\n     * @type {Object}\n     */\n    this.options = options;\n\n    /**\n     * The command to run.\n     * @type {?string}\n     */\n    this._command = command;\n  }\n\n  /**\n   * Searches the given paths for valid ESDoc configurations.\n   * @param {string[]} paths The paths to search.\n   * @return {Promise<Error, Object>} Fulfilled with the ESDoc config found or rejected with the\n   * error that occured.\n   */\n  _getESDocConfig(paths) {\n    const cwd = process.cwd();\n\n    for (let i = 0; i < paths.length; i++) {\n      const relPath = paths[i];\n      const path = join(cwd, relPath);\n\n      try {\n        let config = require(path); // eslint-disable-line global-require\n\n        if (relPath === 'package.json') {\n          config = config.esdoc;\n        }\n\n        if (config) {\n          return Promise.resolve({ path, config });\n        }\n      } catch (e) {} // eslint-disable-line no-empty\n    }\n\n    return Promise.reject(\n      new Error(`Unable to find ESDoc configuration (Searched: ${paths.join(', ')})`)\n    );\n  }\n\n  /**\n   * Gets the documentation coverage report for the given config.\n   * @param {Object} config An ESDoc configuration.\n   * @return {Promise<Error, Object>} Fulfilled with the coverage report found or rejected with the\n   * error that occured.\n   */\n  _getCoverageReport(config) {\n    const coveragePath = join(config.path, '../', config.config.destination, 'coverage.json');\n\n    try {\n      return Promise.resolve(require(coveragePath)); // eslint-disable-line global-require\n    } catch (e) {\n      return Promise.reject(\n        new Error(`Unable to find coverage report (Searched: ${coveragePath})`)\n      );\n    }\n  }\n\n  /**\n   * Validates the documentation coverage reported in the given report matches the threshold\n   * specified.\n   * @param {Object} report The report to handle.\n   */\n  _checkCoverageReport(report) {\n    const reporter = this.options.reporter === 'cli' ? new CliReporter() : new JUnitReporter();\n\n    Object.keys(report.files).sort().forEach(filename => {\n      const fileCoverage = report.files[filename];\n      const valid = fileCoverage.actualCount / fileCoverage.expectCount >= this.options.threshold;\n\n      reporter.report(filename, valid, fileCoverage.actualCount, fileCoverage.expectCount,\n        fileCoverage.undocumentLines);\n    });\n\n    return reporter.finish();\n  }\n\n  /**\n   * Checks the documentation coverage.\n   * @return {Promise<Error>} Rejected if any errors occur.\n   */\n  checkCoverage() {\n    const getConfig = this.options.config ?\n      this._getESDocConfig([this.options.config]) :\n      this._getESDocConfig(['.esdoc.json', '.esdoc.js', 'package.json']);\n\n    return getConfig\n      .then(config => this._getCoverageReport(config))\n      .then(report => this._checkCoverageReport(report))\n      .then(report => console.log(report)); // eslint-disable-line no-console\n  }\n\n  /**\n   * Runs the specified command\n   * @param {Command} [command] The command to run. If not provided it is assumed, that a command\n   * was passed to the constructor.\n   * @return {Promise<Error>} A promise that is rejected if the command fails.\n   */\n  run(command) {\n    if (!this._command && !command) {\n      return Promise.reject(new Error('No command specified'));\n    }\n\n    const commandToRun = (command || this._command);\n\n    switch (commandToRun) {\n      case Command.CheckCoverage:\n        return this.checkCoverage();\n      default:\n        return Promise.reject(new Error(`Invalid command \"${commandToRun}\"`));\n    }\n  }\n\n}\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "Command",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Command",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/esdoc-coverage/src/index.js",
+    "importStyle": "{Command}",
+    "description": "Commands ESDocCoverage handles.",
+    "lineNumber": 11,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "CheckCoverage",
+        "description": "Checks the documentation coverage."
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "Reporter",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Reporter",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/esdoc-coverage/src/index.js",
+    "importStyle": "{Reporter}",
+    "description": "Reporters available",
+    "lineNumber": 21,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "Cli",
+        "description": "Use a {@link CliReporter} instance."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "JUnit",
+        "description": "Use a {@link JUnitReporter} instance."
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "class",
+    "name": "ESDocCoverage",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~ESDocCoverage",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/esdoc-coverage/src/index.js",
+    "importStyle": "ESDocCoverage",
+    "description": "The main esdoc-coverage class.",
+    "lineNumber": 29,
+    "interface": false
+  },
+  {
+    "__docId__": 53,
+    "kind": "get",
+    "name": "version",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~ESDocCoverage.version",
+    "access": "public",
+    "description": "The currently used package version.",
+    "lineNumber": 35,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "withArgs",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~ESDocCoverage.withArgs",
+    "access": "public",
+    "description": "Creates a new ESDocCoverage instance with the given command line arguments.",
+    "lineNumber": 45,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "The command line arguments to use."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ESDocCoverage"
+      ],
+      "spread": false,
+      "description": "The new ESDocCoverage instance."
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#constructor",
+    "access": "public",
+    "description": "Creates a new ESDocCoverage instance based on some options and the command to run.",
+    "lineNumber": 91,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "options",
+        "description": "The options to use."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'cli'",
+        "defaultRaw": "'cli'",
+        "name": "options.reporter",
+        "description": "The reporter to use."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "options.config",
+        "description": "The esdoc config path."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "command",
+        "description": "The command to run. Note that you have to call ESDocCoverage#run to\nrun the command specified."
+      }
+    ]
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "options",
+    "memberof": "src/index.js~ESDocCoverage",
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#options",
+    "access": "public",
+    "description": "The options the current instance was created with.",
+    "lineNumber": 96,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "_command",
+    "memberof": "src/index.js~ESDocCoverage",
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#_command",
+    "access": "private",
+    "description": "The command to run.",
+    "lineNumber": 102,
+    "type": {
+      "nullable": true,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "_getESDocConfig",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#_getESDocConfig",
+    "access": "private",
+    "description": "Searches the given paths for valid ESDoc configurations.",
+    "lineNumber": 111,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "paths",
+        "description": "The paths to search."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error, Object>"
+      ],
+      "spread": false,
+      "description": "Fulfilled with the ESDoc config found or rejected with the\nerror that occured."
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "_getCoverageReport",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#_getCoverageReport",
+    "access": "private",
+    "description": "Gets the documentation coverage report for the given config.",
+    "lineNumber": 142,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "An ESDoc configuration."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error, Object>"
+      ],
+      "spread": false,
+      "description": "Fulfilled with the coverage report found or rejected with the\nerror that occured."
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "_checkCoverageReport",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#_checkCoverageReport",
+    "access": "private",
+    "description": "Validates the documentation coverage reported in the given report matches the threshold\nspecified.",
+    "lineNumber": 159,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "report",
+        "description": "The report to handle."
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "checkCoverage",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#checkCoverage",
+    "access": "public",
+    "description": "Checks the documentation coverage.",
+    "lineNumber": 177,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error>"
+      ],
+      "spread": false,
+      "description": "Rejected if any errors occur."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "run",
+    "memberof": "src/index.js~ESDocCoverage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ESDocCoverage#run",
+    "access": "public",
+    "description": "Runs the specified command",
+    "lineNumber": 194,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Command"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "command",
+        "description": "The command to run. If not provided it is assumed, that a command\nwas passed to the constructor."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error>"
+      ],
+      "spread": false,
+      "description": "A promise that is rejected if the command fails."
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/lib/CliReporter.js",
+    "content": "import Table from 'cli-table';\nimport colors from 'chalk';\nimport Reporter from './Reporter';\n\n/**\n * A reporter that prints an ASCII table with all files and their coverage values.\n */\nexport default class CliReporter extends Reporter {\n\n  /**\n   * Creates a new CliReporter.\n   */\n  constructor() {\n    super();\n\n    /**\n     * The table to print.\n     * @type {cli-table~Table}\n     */\n    this.table = new Table({\n      head: ['', colors.cyan('Coverage'), 'Uncovered lines'],\n    });\n  }\n\n  /**\n   * Adds a row to the table\n   * @param {string} name Name of the row.\n   * @param {boolean} success If the file's documentation coverage meets the threshold.\n   * @param {number} actual Number of documented identifiers.\n   * @param {number} expected Number of expected identifiers.\n   * @param {number[]} uncoveredLines Array of line numbers not documented.\n   */\n  addRow(name, success, actual, expected, uncoveredLines) {\n    this.table.push({\n      [colors.white(name)]: [\n        [\n          colors[success ? 'green' : 'red'](`${((actual / expected) * 100).toFixed(1)}%`),\n          colors.gray(`(${actual}/${expected})`),\n        ].join(' '),\n        `${uncoveredLines.join(', ')}`,\n      ],\n    });\n  }\n\n  /**\n   * Reports the coverage of a file.\n   * @param {string} filename Name of the file.\n   * @param {boolean} success If the file's documentation coverage meets the threshold.\n   * @param {number} actual Number of documented identifiers.\n   * @param {number} expected Number of expected identifiers.\n   * @param {number[]} uncoveredLines Array of line numbers not documented.\n   */\n  report(filename, success, actual, expected, uncoveredLines) {\n    super.report(filename, success, actual, expected, uncoveredLines);\n\n    this.addRow(filename, success, actual, expected, uncoveredLines);\n  }\n\n  /**\n   * Adds a summary row to the table and prints it. Also sets the process exit code to `1` if the\n   * threshold was not met.\n   * @return {Promise<Error, String>} Resolved with the report or an error.\n   */\n  finish() {\n    this.addRow(colors.cyan('All files'), this.success, this.actual, this.expected, []);\n\n    process.exitCode = this.success ? 0 : 1;\n\n    return Promise.resolve(this.table.toString());\n  }\n\n}\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/src/lib/CliReporter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "class",
+    "name": "CliReporter",
+    "memberof": "src/lib/CliReporter.js",
+    "static": true,
+    "longname": "src/lib/CliReporter.js~CliReporter",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/esdoc-coverage/src/lib/CliReporter.js",
+    "importStyle": "CliReporter",
+    "description": "A reporter that prints an ASCII table with all files and their coverage values.",
+    "lineNumber": 8,
+    "interface": false,
+    "extends": [
+      "src/lib/Reporter.js~Reporter"
+    ]
+  },
+  {
+    "__docId__": 65,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/lib/CliReporter.js~CliReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/CliReporter.js~CliReporter#constructor",
+    "access": "public",
+    "description": "Creates a new CliReporter.",
+    "lineNumber": 13
+  },
+  {
+    "__docId__": 66,
+    "kind": "member",
+    "name": "table",
+    "memberof": "src/lib/CliReporter.js~CliReporter",
+    "static": false,
+    "longname": "src/lib/CliReporter.js~CliReporter#table",
+    "access": "public",
+    "description": "The table to print.",
+    "lineNumber": 20,
+    "type": {
+      "nullable": null,
+      "types": [
+        "cli-table~Table"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "addRow",
+    "memberof": "src/lib/CliReporter.js~CliReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/CliReporter.js~CliReporter#addRow",
+    "access": "public",
+    "description": "Adds a row to the table",
+    "lineNumber": 33,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "Name of the row."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "success",
+        "description": "If the file's documentation coverage meets the threshold."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actual",
+        "description": "Number of documented identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "expected",
+        "description": "Number of expected identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uncoveredLines",
+        "description": "Array of line numbers not documented."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "report",
+    "memberof": "src/lib/CliReporter.js~CliReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/CliReporter.js~CliReporter#report",
+    "access": "public",
+    "description": "Reports the coverage of a file.",
+    "lineNumber": 53,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "filename",
+        "description": "Name of the file."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "success",
+        "description": "If the file's documentation coverage meets the threshold."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actual",
+        "description": "Number of documented identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "expected",
+        "description": "Number of expected identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uncoveredLines",
+        "description": "Array of line numbers not documented."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "finish",
+    "memberof": "src/lib/CliReporter.js~CliReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/CliReporter.js~CliReporter#finish",
+    "access": "public",
+    "description": "Adds a summary row to the table and prints it. Also sets the process exit code to `1` if the\nthreshold was not met.",
+    "lineNumber": 64,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error, String>"
+      ],
+      "spread": false,
+      "description": "Resolved with the report or an error."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/lib/JUnitReporter.js",
+    "content": "import { Builder } from 'xml2js';\nimport Reporter from './Reporter';\n\n/**\n * A reporter that creates JUnit-style XML reports.\n */\nexport default class JUnitReporter extends Reporter {\n\n  /**\n   * Creates a new JUnitReporter.\n   */\n  constructor() {\n    super();\n\n    /**\n     * The results received.\n     * @type {Object[]}\n     */\n    this.results = [];\n  }\n\n  /**\n   * Reports the coverage of a file.\n   * @param {string} filename Name of the file.\n   * @param {boolean} success If the file's documentation coverage meets the threshold.\n   * @param {number} actual Number of documented identifiers.\n   * @param {number} expected Number of expected identifiers.\n   * @param {number[]} uncoveredLines Array of line numbers not documented.\n   */\n  report(filename, success, actual, expected, uncoveredLines) {\n    super.report(filename, success, actual, expected);\n\n    const testcase = { $: { classname: filename, name: 'should be documented' } };\n\n    if (!success) {\n      testcase.failure = [{\n        $: { message: 'Missing API documentation' },\n        _: `Lines not documented: ${uncoveredLines.join(', ')}`,\n      }];\n    }\n\n    this.results.push(testcase);\n  }\n\n  /**\n   * Creates and prints the XML reports.\n   * @return {Promise<Error, String>} Resolved with the report or an error.\n   */\n  finish() {\n    const report = {\n      testsuites: {\n        testsuite: [\n          {\n            $: {\n              name: 'esdoc-coverage',\n              tests: this.numberOfFiles,\n              errors: 0,\n              failures: this.notCoveredFiles,\n              time: 0,\n              timestamp: (new Date()).toISOString(),\n            },\n            testcase: this.results,\n          },\n        ],\n      },\n    };\n\n    return Promise.resolve((new Builder()).buildObject(report));\n  }\n\n}\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/src/lib/JUnitReporter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "JUnitReporter",
+    "memberof": "src/lib/JUnitReporter.js",
+    "static": true,
+    "longname": "src/lib/JUnitReporter.js~JUnitReporter",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/esdoc-coverage/src/lib/JUnitReporter.js",
+    "importStyle": "JUnitReporter",
+    "description": "A reporter that creates JUnit-style XML reports.",
+    "lineNumber": 7,
+    "interface": false,
+    "extends": [
+      "src/lib/Reporter.js~Reporter"
+    ]
+  },
+  {
+    "__docId__": 72,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/lib/JUnitReporter.js~JUnitReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/JUnitReporter.js~JUnitReporter#constructor",
+    "access": "public",
+    "description": "Creates a new JUnitReporter.",
+    "lineNumber": 12
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "results",
+    "memberof": "src/lib/JUnitReporter.js~JUnitReporter",
+    "static": false,
+    "longname": "src/lib/JUnitReporter.js~JUnitReporter#results",
+    "access": "public",
+    "description": "The results received.",
+    "lineNumber": 19,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "report",
+    "memberof": "src/lib/JUnitReporter.js~JUnitReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/JUnitReporter.js~JUnitReporter#report",
+    "access": "public",
+    "description": "Reports the coverage of a file.",
+    "lineNumber": 30,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "filename",
+        "description": "Name of the file."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "success",
+        "description": "If the file's documentation coverage meets the threshold."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actual",
+        "description": "Number of documented identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "expected",
+        "description": "Number of expected identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uncoveredLines",
+        "description": "Array of line numbers not documented."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "finish",
+    "memberof": "src/lib/JUnitReporter.js~JUnitReporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/JUnitReporter.js~JUnitReporter#finish",
+    "access": "public",
+    "description": "Creates and prints the XML reports.",
+    "lineNumber": 49,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error, String>"
+      ],
+      "spread": false,
+      "description": "Resolved with the report or an error."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/lib/Reporter.js",
+    "content": "/**\n * Reports per-file documentation coverage.\n * @abstract\n */\nexport default class Reporter {\n\n  /**\n   * Creates a new reporter.\n   */\n  constructor() {\n    /**\n     * Number of covered identifiers.\n     * @type {number}\n     */\n    this.actual = 0;\n\n    /**\n     * Total number of identifiers.\n     * @type {number}\n     */\n    this.expected = 0;\n\n    /**\n     * If the report has a failure.\n     * @type {boolean}\n     */\n    this.success = true;\n\n    /**\n     * The number of files processed.\n     * @type {number}\n     */\n    this.numberOfFiles = 0;\n\n    /**\n     * The number of files processed but nut covered.\n     * @type {number}\n     */\n    this.notCoveredFiles = 0;\n  }\n\n  /**\n   * Reports the coverage of a file.\n   * @param {string} filename Name of the file.\n   * @param {boolean} success If the file's documentation coverage meets the threshold.\n   * @param {number} actual Number of documented identifiers.\n   * @param {number} expected Number of expected identifiers.\n   * @param {number[]} uncoveredLines Array of line numbers not documented.\n   */\n  // eslint-disable-next-line no-unused-vars\n  report(filename, success, actual, expected, uncoveredLines) {\n    this.numberOfFiles++;\n    this.actual += actual;\n    this.expected += expected;\n\n    if (!success) {\n      this.success = false;\n      this.notCoveredFiles++;\n    }\n  }\n\n  /**\n   * Called once all files have been processed. Outputs the report.\n   * @return {Promise<Error, String>} Resolved with the report or an error.\n   */\n  finish() {\n    return Promise.resolve();\n  }\n\n}\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/src/lib/Reporter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "class",
+    "name": "Reporter",
+    "memberof": "src/lib/Reporter.js",
+    "static": true,
+    "longname": "src/lib/Reporter.js~Reporter",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/esdoc-coverage/src/lib/Reporter.js",
+    "importStyle": "Reporter",
+    "description": "Reports per-file documentation coverage.",
+    "lineNumber": 5,
+    "abstract": true,
+    "interface": false
+  },
+  {
+    "__docId__": 78,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#constructor",
+    "access": "public",
+    "description": "Creates a new reporter.",
+    "lineNumber": 10
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "actual",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#actual",
+    "access": "public",
+    "description": "Number of covered identifiers.",
+    "lineNumber": 15,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "expected",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#expected",
+    "access": "public",
+    "description": "Total number of identifiers.",
+    "lineNumber": 21,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "success",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#success",
+    "access": "public",
+    "description": "If the report has a failure.",
+    "lineNumber": 27,
+    "type": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "member",
+    "name": "numberOfFiles",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#numberOfFiles",
+    "access": "public",
+    "description": "The number of files processed.",
+    "lineNumber": 33,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "notCoveredFiles",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#notCoveredFiles",
+    "access": "public",
+    "description": "The number of files processed but nut covered.",
+    "lineNumber": 39,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "report",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#report",
+    "access": "public",
+    "description": "Reports the coverage of a file.",
+    "lineNumber": 51,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "filename",
+        "description": "Name of the file."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "success",
+        "description": "If the file's documentation coverage meets the threshold."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "actual",
+        "description": "Number of documented identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "expected",
+        "description": "Number of expected identifiers."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uncoveredLines",
+        "description": "Array of line numbers not documented."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "finish",
+    "memberof": "src/lib/Reporter.js~Reporter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/lib/Reporter.js~Reporter#finish",
+    "access": "public",
+    "description": "Called once all files have been processed. Outputs the report.",
+    "lineNumber": 66,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Error, String>"
+      ],
+      "spread": false,
+      "description": "Resolved with the report or an error."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "name": "src/typedef/cli-table.js",
+    "content": "/**\n * @external {cli-table~Table} https://github.com/Automattic/cli-table\n */\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/src/typedef/cli-table.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 90,
+    "kind": "external",
+    "name": "cli-table~Table",
+    "externalLink": "https://github.com/Automattic/cli-table",
+    "memberof": "src/typedef/cli-table.js",
+    "static": true,
+    "longname": "src/typedef/cli-table.js~cli-table~Table",
+    "access": "public",
+    "description": ""
+  },
+  {
+    "kind": "index",
+    "content": "# esdoc-coverage\n\n> Check [ESDoc](https://esdoc.org) coverage\n\n[![CircleCI](https://circleci.com/gh/ls-age/esdoc-coverage.svg?style=shield)](https://circleci.com/gh/ls-age/esdoc-coverage)\n[![codecov](https://codecov.io/gh/ls-age/esdoc-coverage/branch/master/graph/badge.svg)](https://codecov.io/gh/ls-age/esdoc-coverage)\n[![ESDoc](https://doc.esdoc.org/github.com/ls-age/esdoc-coverage/badge.svg)](https://doc.esdoc.org/github.com/ls-age/esdoc-coverage/)\n\n**Please note that this module is still in early development.**\n\n## Installation\n\n> Requires node.js (version >= 6) to be installed\n\nRun `npm install --save-dev @ls-age/esdoc-coverage` to install the package\n \n## Usage\n\nAfter running `esdoc` run `esdoc-coverage` with the same arguments.\n\nFor all available option run `esdoc-coverage --help`\n",
+    "longname": "/root/esdoc-coverage/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@ls-age/esdoc-coverage\",\n  \"version\": \"0.1.4\",\n  \"description\": \"Check ESDoc coverage\",\n  \"main\": \"out/index.js\",\n  \"bin\": {\n    \"esdoc-coverage\": \"out/bin.js\"\n  },\n  \"scripts\": {\n    \"compile\": \"babel src --out-dir out\",\n    \"compile:watch\": \"npm run compile -- --watch\",\n    \"docs\": \"esdoc -c esdoc.json\",\n    \"lint\": \"eslint src\",\n    \"lint:test\": \"eslint test\",\n    \"prepublish\": \"npm run compile && npm run docs\",\n    \"commitmsg\": \"conventional-changelog-lint -e\",\n    \"test\": \"cross-env NODE_ENV=test mocha --recursive --require babel-register \\\\\\\"test/src/**/*.spec.js\\\\\\\"\",\n    \"test:ci\": \"circleci build\",\n    \"test:watch\": \"npm test -- --watch --reporter min\",\n    \"test:coverage\": \"nyc --reporter=html npm test\",\n    \"test:docs\": \"blcl docs/api --exclude https://circleci.com/gh/ls-age/esdoc-coverage\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/ls-age/esdoc-coverage.git\"\n  },\n  \"author\": \"Lukas Hechenberger <npm@ls-age.com>\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/ls-age/esdoc-coverage/issues\"\n  },\n  \"homepage\": \"https://github.com/ls-age/esdoc-coverage#readme\",\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.24.1\",\n    \"babel-plugin-istanbul\": \"^4.1.1\",\n    \"babel-preset-node6\": \"^11.0.0\",\n    \"babel-register\": \"^6.24.1\",\n    \"broken-link-checker-local\": \"^0.1.1\",\n    \"codecov\": \"^2.1.0\",\n    \"conventional-changelog-lint\": \"^1.1.9\",\n    \"conventional-github-releaser\": \"^1.1.10\",\n    \"cross-env\": \"^4.0.0\",\n    \"esdoc\": \"^1.0.3\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esdoc-uploader\": \"^1.0.1\",\n    \"eslint\": \"^3.19.0\",\n    \"eslint-config-lsage\": \"^0.1.0\",\n    \"husky\": \"^0.13.3\",\n    \"mocha\": \"^3.2.0\",\n    \"mocha-circleci-reporter\": \"0.0.2\",\n    \"nyc\": \"^10.2.0\",\n    \"sinon\": \"^2.1.0\",\n    \"standard-version\": \"^4.2.0\",\n    \"unexpected\": \"^10.26.3\"\n  },\n  \"dependencies\": {\n    \"chalk\": \"^1.1.3\",\n    \"cli-table\": \"^0.3.1\",\n    \"create-junit-report\": \"^1.1.0\",\n    \"xml2js\": \"^0.4.17\",\n    \"yargs\": \"^7.0.2\"\n  },\n  \"eslintConfig\": {\n    \"extends\": \"lsage\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"node6\"\n    ],\n    \"env\": {\n      \"test\": {\n        \"plugins\": [\n          \"istanbul\"\n        ]\n      }\n    }\n  },\n  \"nyc\": {\n    \"all\": true,\n    \"include\": [\n      \"src/**/*.js\"\n    ],\n    \"exclude\": [\n      \"res/**/*.*\"\n    ],\n    \"require\": [\n      \"babel-register\"\n    ],\n    \"sourceMap\": false,\n    \"instrument\": false,\n    \"check-coverage\": true\n  }\n}\n",
+    "longname": "/root/esdoc-coverage/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/root/esdoc-coverage/CHANGELOG.md",
+    "name": "./CHANGELOG.md",
+    "content": "# Change Log\n\nAll notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.\n\n<a name=\"0.1.4\"></a>\n## [0.1.4](https://github.com/ls-age/esdoc-coverage/compare/v0.1.2...v0.1.4) (2017-10-24)\n\n\n### Bug Fixes\n\n* Use threshold given through options ([dad5055](https://github.com/ls-age/esdoc-coverage/commit/dad5055))\n\n\n\n<a name=\"0.1.3\"></a>\n## [0.1.3](https://github.com/ls-age/esdoc-coverage/compare/v0.1.2...v0.1.3) (2017-10-24)\n\n\n### Bug Fixes\n\n* Use threshold given through options ([dad5055](https://github.com/ls-age/esdoc-coverage/commit/dad5055))\n\n\n\n<a name=\"0.1.2\"></a>\n## [0.1.2](https://github.com/ls-age/esdoc-coverage/compare/v0.1.1...v0.1.2) (2017-04-09)\n\n\n### Bug Fixes\n\n* **release:** Add build files to npm releases ([5fa48b2](https://github.com/ls-age/esdoc-coverage/commit/5fa48b2))\n\n\n\n<a name=\"0.1.1\"></a>\n## [0.1.1](https://github.com/ls-age/esdoc-coverage/compare/v0.1.0...v0.1.1) (2017-04-09)\n\n\n### Bug Fixes\n\n* **package:** Replace invalid bin path ([0847187](https://github.com/ls-age/esdoc-coverage/commit/0847187))\n\n\n\n<a name=\"0.1.0\"></a>\n# 0.1.0 (2017-04-09)\n\n\n### Bug Fixes\n\n* Print percentage value ([facb46c](https://github.com/ls-age/esdoc-coverage/commit/facb46c))\n\n\n### Features\n\n* **JUnitReporter:** Better error messages ([066d6ce](https://github.com/ls-age/esdoc-coverage/commit/066d6ce))\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "__docId__": 91,
+    "kind": "testFile",
+    "name": "src/index.spec.js",
+    "content": "import { join } from 'path';\nimport expect from 'unexpected';\nimport { stub } from 'sinon';\nimport ESDocCoverage, { Command } from '../../src/index';\nimport esDocConfig from '../../esdoc.json';\n\n/** @test {ESDocCoverage} */\ndescribe('ESDocCoverage', function() {\n  /** @test {ESDocCoverage.version} */\n  describe('.version', function() {\n    it('should return current package version', function() {\n      expect(ESDocCoverage.version, 'to match', /[0-9]+\\.[0-9]+\\.[0-9]+/);\n    });\n  });\n\n  /** @test {ESDocCoverage.withArgs} */\n  describe('.withArgs', function() {\n    it('should return a set up instance', function() {\n      expect(ESDocCoverage.withArgs([]), 'to be a', ESDocCoverage);\n    });\n  });\n\n  /** @test {ESDocCoverage#constructor} */\n  describe('#constructor', function() {\n    it('should work without any arguments', function() {\n      expect(() => new ESDocCoverage(), 'not to throw');\n    });\n\n    it('should store options passed', function() {\n      const opts = { test: 123 };\n      expect((new ESDocCoverage(opts)).options, 'to be', opts);\n    });\n\n    it('should store command passed', function() {\n      const command = Command.CheckCoverage;\n      expect((new ESDocCoverage({}, command))._command, 'to be', Command.CheckCoverage);\n    });\n  });\n\n  /** @test {ESDocCoverage#_getESDocConfig} */\n  describe('#_getESDocConfig', function() {\n    const instance = new ESDocCoverage({});\n\n    it('should fail with invalid path', function() {\n      return expect(instance._getESDocConfig(['does/not/exist.json']),\n        'to be rejected with', /Unable to find ESDoc config/);\n    });\n\n    it('should use esdoc property on package.json files', function() {\n      return expect(instance._getESDocConfig(['package.json']),\n        'to be rejected with', /Unable to find ESDoc config/);\n    });\n\n    it('should be fulfilled if config exists', function() {\n      return expect(instance._getESDocConfig(['esdoc.json']),\n        'when fulfilled', 'to have properties', {\n          config: esDocConfig,\n          path: join(__dirname, '../../esdoc.json'),\n        });\n    });\n  });\n\n  /** @test {ESDocCoverage#_getCoverageReport} */\n  describe('#_getCoverageReport', function() {\n    const instance = new ESDocCoverage({});\n\n    it('should fail with invalid path', function() {\n      return expect(instance._getCoverageReport({\n        path: 'does/not/exist.json',\n        config: { destination: 'docs/api' },\n      }),\n        'to be rejected with', /Unable to find coverage report/);\n    });\n\n    it('should work with valid path', function() {\n      return expect(instance._getCoverageReport({\n        path: join(__dirname, '../../esdoc.json'),\n        config: { destination: 'docs/api' } }),\n        'to be fulfilled');\n    });\n  });\n\n  /** @test {ESDocCoverage#_checkCoverageReport} */\n  describe('#_checkCoverageReport', function() {\n    it('should return xml report if reporter is set to unit', function() {\n      const instance = new ESDocCoverage({ reporter: 'junit' });\n\n      return expect(instance._checkCoverageReport({ files: {\n        'test.js': { actualCount: 0, expectCount: 2, undocumentLines: [1, 2] },\n      } }), 'to be fulfilled with', /^<\\?xml/);\n    });\n  });\n\n  /** @test {ESDocCoverage#checkCoverage} */\n  describe('#checkCoverage', function() {\n    it('should call getConfig with passed option value', function() {\n      const instance = new ESDocCoverage({ config: 'test.json' });\n      stub(instance, '_getESDocConfig').callsFake(() => Promise.resolve());\n      stub(instance, '_getCoverageReport').callsFake(() => Promise.resolve());\n      stub(instance, '_checkCoverageReport').callsFake(() => Promise.resolve());\n\n      instance.checkCoverage();\n\n      expect(instance._getESDocConfig.calledOnce, 'to be true');\n      expect(instance._getESDocConfig.lastCall.args[0], 'to equal', ['test.json']);\n    });\n\n    it('should call getConfig with default config paths if no option passed', function() {\n      const instance = new ESDocCoverage({});\n      stub(instance, '_getESDocConfig').callsFake(() => Promise.resolve());\n      stub(instance, '_getCoverageReport').callsFake(() => Promise.resolve());\n      stub(instance, '_checkCoverageReport').callsFake(() => Promise.resolve());\n\n      instance.checkCoverage();\n\n      expect(instance._getESDocConfig.calledOnce, 'to be true');\n      expect(instance._getESDocConfig.lastCall.args[0], 'to equal', [\n        '.esdoc.json',\n        '.esdoc.js',\n        'package.json',\n      ]);\n    });\n  });\n\n  /** @test {ESDocCoverage#run} */\n  describe('#run', function() {\n    it('should fail without command', function() {\n      return expect((new ESDocCoverage()).run(), 'to be rejected with', /No command/);\n    });\n\n    it('should fail with invalid command', function() {\n      return expect((new ESDocCoverage({}, 'unknown')).run(),\n        'to be rejected with', /Invalid command/);\n    });\n\n    it('should always run passed command if defined', function() {\n      return expect((new ESDocCoverage({}, Command.CheckCoverage)).run('unknown'),\n        'to be rejected with', /Invalid command/);\n    });\n\n    it('should call checkCoverage for CheckCoverage command', function() {\n      const instance = new ESDocCoverage({}, Command.CheckCoverage);\n      stub(instance, 'checkCoverage');\n\n      instance.run();\n\n      expect(instance.checkCoverage.calledOnce, 'to be true');\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/test/src/index.spec.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 92,
+    "kind": "test",
+    "name": "describe0",
+    "testId": 0,
+    "memberof": "src/index.spec.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/index.spec.js~describe0",
+    "access": null,
+    "description": "ESDocCoverage",
+    "lineNumber": 8,
+    "testTargets": [
+      "ESDocCoverage"
+    ]
+  },
+  {
+    "__docId__": 93,
+    "kind": "test",
+    "name": "describe1",
+    "testId": 1,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe1",
+    "access": null,
+    "description": ".version",
+    "lineNumber": 10,
+    "testTargets": [
+      "ESDocCoverage.version"
+    ]
+  },
+  {
+    "__docId__": 94,
+    "kind": "test",
+    "name": "it2",
+    "testId": 2,
+    "memberof": "src/index.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe1.it2",
+    "access": null,
+    "description": "should return current package version",
+    "lineNumber": 11
+  },
+  {
+    "__docId__": 95,
+    "kind": "test",
+    "name": "describe3",
+    "testId": 3,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe3",
+    "access": null,
+    "description": ".withArgs",
+    "lineNumber": 17,
+    "testTargets": [
+      "ESDocCoverage.withArgs"
+    ]
+  },
+  {
+    "__docId__": 96,
+    "kind": "test",
+    "name": "it4",
+    "testId": 4,
+    "memberof": "src/index.spec.js~describe0.describe3",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe3.it4",
+    "access": null,
+    "description": "should return a set up instance",
+    "lineNumber": 18
+  },
+  {
+    "__docId__": 97,
+    "kind": "test",
+    "name": "describe5",
+    "testId": 5,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe5",
+    "access": null,
+    "description": "#constructor",
+    "lineNumber": 24,
+    "testTargets": [
+      "ESDocCoverage#constructor"
+    ]
+  },
+  {
+    "__docId__": 98,
+    "kind": "test",
+    "name": "it6",
+    "testId": 6,
+    "memberof": "src/index.spec.js~describe0.describe5",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe5.it6",
+    "access": null,
+    "description": "should work without any arguments",
+    "lineNumber": 25
+  },
+  {
+    "__docId__": 99,
+    "kind": "test",
+    "name": "it7",
+    "testId": 7,
+    "memberof": "src/index.spec.js~describe0.describe5",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe5.it7",
+    "access": null,
+    "description": "should store options passed",
+    "lineNumber": 29
+  },
+  {
+    "__docId__": 100,
+    "kind": "test",
+    "name": "it8",
+    "testId": 8,
+    "memberof": "src/index.spec.js~describe0.describe5",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe5.it8",
+    "access": null,
+    "description": "should store command passed",
+    "lineNumber": 34
+  },
+  {
+    "__docId__": 101,
+    "kind": "test",
+    "name": "describe9",
+    "testId": 9,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe9",
+    "access": null,
+    "description": "#_getESDocConfig",
+    "lineNumber": 41,
+    "testTargets": [
+      "ESDocCoverage#_getESDocConfig"
+    ]
+  },
+  {
+    "__docId__": 102,
+    "kind": "test",
+    "name": "it10",
+    "testId": 10,
+    "memberof": "src/index.spec.js~describe0.describe9",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe9.it10",
+    "access": null,
+    "description": "should fail with invalid path",
+    "lineNumber": 44
+  },
+  {
+    "__docId__": 103,
+    "kind": "test",
+    "name": "it11",
+    "testId": 11,
+    "memberof": "src/index.spec.js~describe0.describe9",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe9.it11",
+    "access": null,
+    "description": "should use esdoc property on package.json files",
+    "lineNumber": 49
+  },
+  {
+    "__docId__": 104,
+    "kind": "test",
+    "name": "it12",
+    "testId": 12,
+    "memberof": "src/index.spec.js~describe0.describe9",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe9.it12",
+    "access": null,
+    "description": "should be fulfilled if config exists",
+    "lineNumber": 54
+  },
+  {
+    "__docId__": 105,
+    "kind": "test",
+    "name": "describe13",
+    "testId": 13,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe13",
+    "access": null,
+    "description": "#_getCoverageReport",
+    "lineNumber": 64,
+    "testTargets": [
+      "ESDocCoverage#_getCoverageReport"
+    ]
+  },
+  {
+    "__docId__": 106,
+    "kind": "test",
+    "name": "it14",
+    "testId": 14,
+    "memberof": "src/index.spec.js~describe0.describe13",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe13.it14",
+    "access": null,
+    "description": "should fail with invalid path",
+    "lineNumber": 67
+  },
+  {
+    "__docId__": 107,
+    "kind": "test",
+    "name": "it15",
+    "testId": 15,
+    "memberof": "src/index.spec.js~describe0.describe13",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe13.it15",
+    "access": null,
+    "description": "should work with valid path",
+    "lineNumber": 75
+  },
+  {
+    "__docId__": 108,
+    "kind": "test",
+    "name": "describe16",
+    "testId": 16,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe16",
+    "access": null,
+    "description": "#_checkCoverageReport",
+    "lineNumber": 84,
+    "testTargets": [
+      "ESDocCoverage#_checkCoverageReport"
+    ]
+  },
+  {
+    "__docId__": 109,
+    "kind": "test",
+    "name": "it17",
+    "testId": 17,
+    "memberof": "src/index.spec.js~describe0.describe16",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe16.it17",
+    "access": null,
+    "description": "should return xml report if reporter is set to unit",
+    "lineNumber": 85
+  },
+  {
+    "__docId__": 110,
+    "kind": "test",
+    "name": "describe18",
+    "testId": 18,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe18",
+    "access": null,
+    "description": "#checkCoverage",
+    "lineNumber": 95,
+    "testTargets": [
+      "ESDocCoverage#checkCoverage"
+    ]
+  },
+  {
+    "__docId__": 111,
+    "kind": "test",
+    "name": "it19",
+    "testId": 19,
+    "memberof": "src/index.spec.js~describe0.describe18",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe18.it19",
+    "access": null,
+    "description": "should call getConfig with passed option value",
+    "lineNumber": 96
+  },
+  {
+    "__docId__": 112,
+    "kind": "test",
+    "name": "it20",
+    "testId": 20,
+    "memberof": "src/index.spec.js~describe0.describe18",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe18.it20",
+    "access": null,
+    "description": "should call getConfig with default config paths if no option passed",
+    "lineNumber": 108
+  },
+  {
+    "__docId__": 113,
+    "kind": "test",
+    "name": "describe21",
+    "testId": 21,
+    "memberof": "src/index.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe21",
+    "access": null,
+    "description": "#run",
+    "lineNumber": 126,
+    "testTargets": [
+      "ESDocCoverage#run"
+    ]
+  },
+  {
+    "__docId__": 114,
+    "kind": "test",
+    "name": "it22",
+    "testId": 22,
+    "memberof": "src/index.spec.js~describe0.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe21.it22",
+    "access": null,
+    "description": "should fail without command",
+    "lineNumber": 127
+  },
+  {
+    "__docId__": 115,
+    "kind": "test",
+    "name": "it23",
+    "testId": 23,
+    "memberof": "src/index.spec.js~describe0.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe21.it23",
+    "access": null,
+    "description": "should fail with invalid command",
+    "lineNumber": 131
+  },
+  {
+    "__docId__": 116,
+    "kind": "test",
+    "name": "it24",
+    "testId": 24,
+    "memberof": "src/index.spec.js~describe0.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe21.it24",
+    "access": null,
+    "description": "should always run passed command if defined",
+    "lineNumber": 136
+  },
+  {
+    "__docId__": 117,
+    "kind": "test",
+    "name": "it25",
+    "testId": 25,
+    "memberof": "src/index.spec.js~describe0.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/index.spec.js~describe0.describe21.it25",
+    "access": null,
+    "description": "should call checkCoverage for CheckCoverage command",
+    "lineNumber": 141
+  },
+  {
+    "__docId__": 118,
+    "kind": "testFile",
+    "name": "src/lib/CliReporter.spec.js",
+    "content": "import expect from 'unexpected';\nimport { stub } from 'sinon';\nimport CliReporter from '../../../src/lib/CliReporter';\n\n/** @test {CliReporter} */\ndescribe('CliReporter', function() {\n  /** @test {CliReporter#constructor} */\n  describe('#constructor', function() {\n    it('should initialize a cli-table Table', function() {\n      expect((new CliReporter()).table, 'to be defined');\n    });\n  });\n\n  /** @test {CliReporter#addRow} */\n  describe('#addRow', function() {\n    it('should call cli-table~Table#push', function() {\n      const reporter = new CliReporter();\n      stub(reporter.table, 'push').callsFake(() => {});\n\n      reporter.addRow('name', false, 0, 2, [1, 2]);\n      expect(reporter.table.push.calledOnce, 'to be true');\n    });\n  });\n\n  /** @test {CliReporter#report} */\n  describe('#report', function() {\n    it('should forward args to addRow', function() {\n      const reporter = new CliReporter();\n      stub(reporter, 'addRow').callsFake(() => {});\n      const args = ['name', false, 0, 2, [1, 2]];\n\n      reporter.report(...args);\n      expect(reporter.addRow.calledOnce, 'to be true');\n      expect(reporter.addRow.lastCall.args, 'to equal', args);\n    });\n  });\n  \n  /** @test {CliReporter#finish} */\n  describe('#finish', function() {\n    it('should add a summary row', function() {\n      const reporter = new CliReporter();\n      stub(reporter, 'addRow').callsFake(() => {});\n\n      reporter.finish();\n      expect(reporter.addRow.calledOnce, 'to be true');\n    });\n\n    it('should set process exit code', function() {\n      const reporter = new CliReporter();\n      reporter.report('name', false, 0, 2, [1, 2]);\n\n      reporter.finish();\n      expect(process.exitCode, 'to equal', 1);\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/test/src/lib/CliReporter.spec.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 119,
+    "kind": "test",
+    "name": "describe26",
+    "testId": 26,
+    "memberof": "src/lib/CliReporter.spec.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26",
+    "access": null,
+    "description": "CliReporter",
+    "lineNumber": 6,
+    "testTargets": [
+      "CliReporter"
+    ]
+  },
+  {
+    "__docId__": 120,
+    "kind": "test",
+    "name": "describe27",
+    "testId": 27,
+    "memberof": "src/lib/CliReporter.spec.js~describe26",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe27",
+    "access": null,
+    "description": "#constructor",
+    "lineNumber": 8,
+    "testTargets": [
+      "CliReporter#constructor"
+    ]
+  },
+  {
+    "__docId__": 121,
+    "kind": "test",
+    "name": "it28",
+    "testId": 28,
+    "memberof": "src/lib/CliReporter.spec.js~describe26.describe27",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe27.it28",
+    "access": null,
+    "description": "should initialize a cli-table Table",
+    "lineNumber": 9
+  },
+  {
+    "__docId__": 122,
+    "kind": "test",
+    "name": "describe29",
+    "testId": 29,
+    "memberof": "src/lib/CliReporter.spec.js~describe26",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe29",
+    "access": null,
+    "description": "#addRow",
+    "lineNumber": 15,
+    "testTargets": [
+      "CliReporter#addRow"
+    ]
+  },
+  {
+    "__docId__": 123,
+    "kind": "test",
+    "name": "it30",
+    "testId": 30,
+    "memberof": "src/lib/CliReporter.spec.js~describe26.describe29",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe29.it30",
+    "access": null,
+    "description": "should call cli-table~Table#push",
+    "lineNumber": 16
+  },
+  {
+    "__docId__": 124,
+    "kind": "test",
+    "name": "describe31",
+    "testId": 31,
+    "memberof": "src/lib/CliReporter.spec.js~describe26",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe31",
+    "access": null,
+    "description": "#report",
+    "lineNumber": 26,
+    "testTargets": [
+      "CliReporter#report"
+    ]
+  },
+  {
+    "__docId__": 125,
+    "kind": "test",
+    "name": "it32",
+    "testId": 32,
+    "memberof": "src/lib/CliReporter.spec.js~describe26.describe31",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe31.it32",
+    "access": null,
+    "description": "should forward args to addRow",
+    "lineNumber": 27
+  },
+  {
+    "__docId__": 126,
+    "kind": "test",
+    "name": "describe33",
+    "testId": 33,
+    "memberof": "src/lib/CliReporter.spec.js~describe26",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe33",
+    "access": null,
+    "description": "#finish",
+    "lineNumber": 39,
+    "testTargets": [
+      "CliReporter#finish"
+    ]
+  },
+  {
+    "__docId__": 127,
+    "kind": "test",
+    "name": "it34",
+    "testId": 34,
+    "memberof": "src/lib/CliReporter.spec.js~describe26.describe33",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe33.it34",
+    "access": null,
+    "description": "should add a summary row",
+    "lineNumber": 40
+  },
+  {
+    "__docId__": 128,
+    "kind": "test",
+    "name": "it35",
+    "testId": 35,
+    "memberof": "src/lib/CliReporter.spec.js~describe26.describe33",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/CliReporter.spec.js~describe26.describe33.it35",
+    "access": null,
+    "description": "should set process exit code",
+    "lineNumber": 48
+  },
+  {
+    "__docId__": 129,
+    "kind": "testFile",
+    "name": "src/lib/JUnitReporter.spec.js",
+    "content": "import expect from 'unexpected';\nimport JUnitReporter from '../../../src/lib/JUnitReporter';\n\n/** @test {JUnitReporter} */\ndescribe('JUnitReporter', function() {\n  /** @test {JUnitReporter#constructor} */\n  describe('#constructor', function() {\n    it('should initialize results', function() {\n      expect((new JUnitReporter()).results, 'to equal', []);\n    });\n  });\n\n  /** @test {JUnitReporter#report} */\n  describe('#report', function() {\n    it('should add a testcase', function() {\n      const reporter = new JUnitReporter();\n\n      reporter.report('test.js', true, 0, 1, [0, 1]);\n      expect(reporter.results, 'to have length', 1);\n      expect(reporter.results[0], 'to have own properties', {\n        $: {\n          classname: 'test.js',\n          name: 'should be documented',\n        },\n      });\n    });\n\n    it('should add failure if threshold is not met', function() {\n      const reporter = new JUnitReporter();\n\n      reporter.report('test.js', false, 0, 1, [0, 1]);\n      expect(reporter.results, 'to have length', 1);\n      expect(reporter.results[0], 'to have own properties', {\n        failure: [{\n          $: { message: 'Missing API documentation' },\n          _: 'Lines not documented: 0, 1',\n        }],\n      });\n    });\n  });\n  \n  /** @test {JUnitReporter#finish} */\n  describe('#finish', function() {\n    it('should resolve with a XML string', function() {\n      expect((new JUnitReporter()).finish(), 'when fulfilled', 'to match', /^<\\?xml/)\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/test/src/lib/JUnitReporter.spec.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 130,
+    "kind": "test",
+    "name": "describe36",
+    "testId": 36,
+    "memberof": "src/lib/JUnitReporter.spec.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36",
+    "access": null,
+    "description": "JUnitReporter",
+    "lineNumber": 5,
+    "testTargets": [
+      "JUnitReporter"
+    ]
+  },
+  {
+    "__docId__": 131,
+    "kind": "test",
+    "name": "describe37",
+    "testId": 37,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe37",
+    "access": null,
+    "description": "#constructor",
+    "lineNumber": 7,
+    "testTargets": [
+      "JUnitReporter#constructor"
+    ]
+  },
+  {
+    "__docId__": 132,
+    "kind": "test",
+    "name": "it38",
+    "testId": 38,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36.describe37",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe37.it38",
+    "access": null,
+    "description": "should initialize results",
+    "lineNumber": 8
+  },
+  {
+    "__docId__": 133,
+    "kind": "test",
+    "name": "describe39",
+    "testId": 39,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe39",
+    "access": null,
+    "description": "#report",
+    "lineNumber": 14,
+    "testTargets": [
+      "JUnitReporter#report"
+    ]
+  },
+  {
+    "__docId__": 134,
+    "kind": "test",
+    "name": "it40",
+    "testId": 40,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36.describe39",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe39.it40",
+    "access": null,
+    "description": "should add a testcase",
+    "lineNumber": 15
+  },
+  {
+    "__docId__": 135,
+    "kind": "test",
+    "name": "it41",
+    "testId": 41,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36.describe39",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe39.it41",
+    "access": null,
+    "description": "should add failure if threshold is not met",
+    "lineNumber": 28
+  },
+  {
+    "__docId__": 136,
+    "kind": "test",
+    "name": "describe42",
+    "testId": 42,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe42",
+    "access": null,
+    "description": "#finish",
+    "lineNumber": 43,
+    "testTargets": [
+      "JUnitReporter#finish"
+    ]
+  },
+  {
+    "__docId__": 137,
+    "kind": "test",
+    "name": "it43",
+    "testId": 43,
+    "memberof": "src/lib/JUnitReporter.spec.js~describe36.describe42",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/JUnitReporter.spec.js~describe36.describe42.it43",
+    "access": null,
+    "description": "should resolve with a XML string",
+    "lineNumber": 44
+  },
+  {
+    "__docId__": 138,
+    "kind": "testFile",
+    "name": "src/lib/Reporter.spec.js",
+    "content": "import expect from 'unexpected';\nimport Reporter from '../../../src/lib/Reporter';\n\n/** @test {Reporter} */\ndescribe('Reporter', function() {\n  /** @test {Reporter#constructor} */\n  describe('#constructor', function() {\n    it('should set initial values', function() {\n      expect((new Reporter()), 'to have own properties', {\n        actual: 0,\n        expected: 0,\n        success: true,\n        numberOfFiles: 0,\n        notCoveredFiles: 0,\n      });\n    });\n  });\n\n  /** @test {Reporter#report} */\n  describe('#report', function() {\n    it('should increase values', function() {\n      const reporter = new Reporter();\n      reporter.report('test.js', false, 2, 4);\n\n      expect(reporter, 'to have own properties', {\n        numberOfFiles: 1,\n        actual: 2,\n        expected: 4,\n        success: false,\n        notCoveredFiles: 1,\n      });\n    });\n\n    it('should should keep previous success value if successful', function() {\n      const reporter = new Reporter();\n      reporter.report('test.js', true, 2, 4);\n\n      expect(reporter, 'to have own properties', {\n        numberOfFiles: 1,\n        actual: 2,\n        expected: 4,\n        success: true,\n        notCoveredFiles: 0,\n      });\n    });\n  });\n\n  /** @test {Reporter#finish} */\n  describe('#finish', function() {\n    it('should return a fulfilled Promise by default', function() {\n      expect((new Reporter()).finish(), 'to be fulfilled');\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/root/esdoc-coverage/test/src/lib/Reporter.spec.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 139,
+    "kind": "test",
+    "name": "describe44",
+    "testId": 44,
+    "memberof": "src/lib/Reporter.spec.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44",
+    "access": null,
+    "description": "Reporter",
+    "lineNumber": 5,
+    "testTargets": [
+      "Reporter"
+    ]
+  },
+  {
+    "__docId__": 140,
+    "kind": "test",
+    "name": "describe45",
+    "testId": 45,
+    "memberof": "src/lib/Reporter.spec.js~describe44",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe45",
+    "access": null,
+    "description": "#constructor",
+    "lineNumber": 7,
+    "testTargets": [
+      "Reporter#constructor"
+    ]
+  },
+  {
+    "__docId__": 141,
+    "kind": "test",
+    "name": "it46",
+    "testId": 46,
+    "memberof": "src/lib/Reporter.spec.js~describe44.describe45",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe45.it46",
+    "access": null,
+    "description": "should set initial values",
+    "lineNumber": 8
+  },
+  {
+    "__docId__": 142,
+    "kind": "test",
+    "name": "describe47",
+    "testId": 47,
+    "memberof": "src/lib/Reporter.spec.js~describe44",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe47",
+    "access": null,
+    "description": "#report",
+    "lineNumber": 20,
+    "testTargets": [
+      "Reporter#report"
+    ]
+  },
+  {
+    "__docId__": 143,
+    "kind": "test",
+    "name": "it48",
+    "testId": 48,
+    "memberof": "src/lib/Reporter.spec.js~describe44.describe47",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe47.it48",
+    "access": null,
+    "description": "should increase values",
+    "lineNumber": 21
+  },
+  {
+    "__docId__": 144,
+    "kind": "test",
+    "name": "it49",
+    "testId": 49,
+    "memberof": "src/lib/Reporter.spec.js~describe44.describe47",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe47.it49",
+    "access": null,
+    "description": "should should keep previous success value if successful",
+    "lineNumber": 34
+  },
+  {
+    "__docId__": 145,
+    "kind": "test",
+    "name": "describe50",
+    "testId": 50,
+    "memberof": "src/lib/Reporter.spec.js~describe44",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe50",
+    "access": null,
+    "description": "#finish",
+    "lineNumber": 49,
+    "testTargets": [
+      "Reporter#finish"
+    ]
+  },
+  {
+    "__docId__": 146,
+    "kind": "test",
+    "name": "it51",
+    "testId": 51,
+    "memberof": "src/lib/Reporter.spec.js~describe44.describe50",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/lib/Reporter.spec.js~describe44.describe50.it51",
+    "access": null,
+    "description": "should return a fulfilled Promise by default",
+    "lineNumber": 50
+  }
+]

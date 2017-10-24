@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/ls-age/esdoc-coverage/compare/v0.1.4...v0.1.5) (2017-10-24)
+
+
+### Bug Fixes
+
+* **ci:** Use older github-releaser to prevent builds from failing ([#1](https://github.com/ls-age/esdoc-coverage/issues/1)) ([a559302](https://github.com/ls-age/esdoc-coverage/commit/a559302))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/ls-age/esdoc-coverage/compare/v0.1.2...v0.1.4) (2017-10-24)
 
