@@ -66,7 +66,7 @@ jobs:
       - deploy:
           name: Publish to npm
           command: |
-            if [ "${CIRCLE_BRANCH}" == "release" ]; then
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
               # Login to npm
               echo -e "$NPM_USER\n$NPM_PASS\n$NPM_EMAIL" | npm login
 
@@ -90,7 +90,7 @@ jobs:
           name: Creating GitHub release
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              CONVENTIONAL_GITHUB_RELEASER_TOKEN=$GITHUB_TOKEN npx conventional-github-releaser -p angular;
+              CONVENTIONAL_GITHUB_RELEASER_TOKEN=$GITHUB_TOKEN node_modules/.bin/conventional-github-releaser -p angular;
             fi
       - deploy:
           name: Deploy documentation to docs.esdoc.org
