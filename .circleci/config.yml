@@ -46,6 +46,9 @@ jobs:
           destination: esdoc
       - store_test_results:
           path: test-results
+      - add-ssh-keys:
+          fingerprints:
+            - "8e:35:87:3c:c4:c6:da:78:13:63:e5:0d:42:f6:bd:4e"
       - deploy:
           name: Create git tag
           command: |
