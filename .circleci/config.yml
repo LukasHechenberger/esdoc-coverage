@@ -66,7 +66,7 @@ jobs:
       - deploy:
           name: Publish to npm
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            if [ "${CIRCLE_BRANCH}" == "release" ]; then
               # Login to npm
               echo -e "$NPM_USER\n$NPM_PASS\n$NPM_EMAIL" | npm login
 
